@@ -56,6 +56,5 @@ export const loginUser = async (req, res) => {
 };
 
 export const logoutUser = async (req, res) => {
-  // Frontend typically handles logout by clearing token
   res.json({ message: "Logout successful" });
 };

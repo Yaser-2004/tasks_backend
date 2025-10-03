@@ -22,10 +22,10 @@ const taskSchema = new mongoose.Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now, // automatically adds timestamp
+      default: Date.now, 
     },
   },
-  { timestamps: true } // adds createdAt & updatedAt automatically
+  { timestamps: true } 
 );
 
 export default mongoose.model("Task", taskSchema);
